@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-world_health_data = pd.read_csv(r"C:\Users\Dakshina\Downloads\Causes Of Death.csv")
+world_health_data = pd.read_csv(r".\Causes Of Death.csv")
 
 print(world_health_data.head())
 print(world_health_data.describe())
